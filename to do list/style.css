@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Gowun+Dodum&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+body{
+    background:url(image/beautiful-shot-grassy-fields-with-trees-blue-cloudy-sky.jpg);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* icones check e delete */
+i{
+    margin-top: 15px;
+    height: 25px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  
+}
+
+
+.conteiner{
+    background-color: transparent;
+    width:500px ;
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: auto;
+    margin:10px auto 0;
+    border: 1px solid white;
+    box-shadow: 1px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+h1{
+    font-style: italic;
+    font-weight: 100;
+}
+  
+input::placeholder {
+    
+    font-style: italic;
+    color: rgb(0, 0, 0);
+  }
+.input-task{
+    box-shadow: 1px 4px 10px rgba(255, 255, 255, 0.2);
+
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    
+    
+
+}
+/* button */
+.add-task{
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: rgb(107, 195, 239);
+    color: white;
+    font-size: 17px;
+    padding: 0 15px;
+    float: right;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 5px 9px 15px rgba(255, 254, 254, 0.2);
+    
+}
+
+.add-task:hover{
+    font-weight: 100;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    background-color:transparent;
+    border: 2px solid white;
+}
+
+.ul-list{
+    margin-top: 40px;
+    list-style: none;
+    width: 100%;
+
+}
+
+.li-task{
+    background-color: transparent;
+    box-shadow: 1px 4px 10px rgba(255, 255, 255, 0.2);
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+
+.li-task:hover i{
+    opacity: 1;
+}
+
+.done>p{
+    text-decoration: line-through ;
+}
+
+
+.done{
+    background-color: transparent;
+}
+
+
+
+.git{
+    margin: 20px;
+    font-size: 20px;
+    text-align:center;
+}
+
+
+.fa-brands{
+    margin: 10px;
+    opacity: 100;
+    font-size: 17px;
+}
